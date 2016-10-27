@@ -1,0 +1,13 @@
+{
+    "name": "com.divid.php-tag",
+    "title": "PHP tag",
+    "description": "Allows you to add/remove php tag to/from the currently selected text without touching your keyboard.",
+    "homepage": "https://github.com/divid-design/php-tag",
+    "keywords":["c","c++","Objective-C", "PHP", "Java", "JavaScript", "CSS", "c#", "comment", "dreamweaver"],
+    "version": "1.0",
+    "author": "Bajai Károly <bajaikaroly@gmail.com> (http://www.divid.hu)",
+    "license": "None - steal this code!",
+    "engines": {
+        "brackets": ">=0.24.0"
+    }
+}
