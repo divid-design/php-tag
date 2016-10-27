@@ -1,6 +1,6 @@
-#c-comment-button{
+#php-tag{
     background-image: url(icon-sprite.png);
 }
-#c-comment-button:hover{
+#php-tag:hover{
     background-position: 0px -23px;   
 }
