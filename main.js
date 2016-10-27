@@ -19,7 +19,7 @@ define( function( require, exports, module ) {
     ExtensionUtils.loadStyleSheet( module, 'php-tag.css' );
 
     // Register extension.
-    CommandManager.register( "Add / Remove php tag", "com.divid.php-tag.docomment", doComment );
+    CommandManager.register( "Add / Remove php tag", "hu.divid.php-tag.docomment", doComment );
     
     function doComment(){
         var ed = EditorManager.getCurrentFullEditor();
@@ -39,7 +39,7 @@ define( function( require, exports, module ) {
 
         // Add listener for toolbar icon..
         $todoIcon.click( function() {
-            CommandManager.execute( "com.divid.php-tag.docomment" );
+            CommandManager.execute( "hu.divid.php-tag.docomment" );
         } ).appendTo( '#main-toolbar .buttons' );
 
     } );
